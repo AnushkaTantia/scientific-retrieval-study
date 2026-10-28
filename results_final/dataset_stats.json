@@ -1,0 +1,24 @@
+[
+ {
+  "dataset": "scifact",
+  "documents": 5183,
+  "test_queries": 300,
+  "tuning_queries": 809,
+  "tuning_split": "train",
+  "relevant_per_query": 1.13,
+  "query_words_mean": 12.506666666666666,
+  "doc_words_mean": 214.6280146633224,
+  "ce_ms_per_pair": 291.0934853842166
+ },
+ {
+  "dataset": "nfcorpus",
+  "documents": 3633,
+  "test_queries": 323,
+  "tuning_queries": 324,
+  "tuning_split": "dev",
+  "relevant_per_query": 38.18575851393189,
+  "query_words_mean": 3.2941176470588234,
+  "doc_words_mean": 233.76520781723093,
+  "ce_ms_per_pair": 280.12665038285553
+ }
+]

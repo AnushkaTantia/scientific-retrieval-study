@@ -1,0 +1,12 @@
+numpy
+scipy
+scikit-learn
+pandas
+nltk
+matplotlib
+pytest
+tqdm
+# needed only for run_neural.py (dense retrieval and re-ranking)
+sentence-transformers
+faiss-cpu
+torch
