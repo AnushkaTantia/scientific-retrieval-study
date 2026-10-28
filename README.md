@@ -1,8 +1,7 @@
 # Lexical, Hashed, Dense and Hybrid Retrieval for Scientific Text
 
 A comparative study of accuracy, latency and memory for 13 retrieval systems on the
-BEIR **SciFact** and **NFCorpus** benchmarks, carried out for CS6095 (Summer Industrial
-Research Experience), M.Tech Computer Science, National Institute of Technology Rourkela.
+BEIR **SciFact** and **NFCorpus** benchmarks.
 
 **Main result:** weighted fusion of stemmed BM25 and `bge-small-en-v1.5` gives the best
 nDCG@10 on both datasets (0.733 SciFact, 0.369 NFCorpus) at under 90 ms per query on a
